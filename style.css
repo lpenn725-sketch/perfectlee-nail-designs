@@ -95,6 +95,10 @@ body {
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
   text-align: center;
 }
+.product .order-btn {
+  appearance: none;
+  -webkit-appearance: none;
+}
 .product img {
   width: 100%;
   border-radius: 14px;
