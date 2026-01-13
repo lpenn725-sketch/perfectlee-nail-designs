@@ -5,10 +5,18 @@
 }
 
 body {
-  font-family: "Helvetica Neue", Arial, sans-serif;
-  background-color: #f7f3ef;
-  color: #2f2f2f;
-  line-height: 1.6;
+  margin: 0;
+  font-family: Arial, sans-serif;
+
+  background: repeating-linear-gradient(
+    90deg,
+    #f2c6cf 0px,
+    #f2c6cf 120px,
+    #ffffff 120px,
+    #ffffff 240px,
+    #f5e6d8 240px,
+    #f5e6d8 360px
+  );
 }
 
 .hero {
