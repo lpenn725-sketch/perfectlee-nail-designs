@@ -170,4 +170,17 @@ footer {
 .order-btn:hover {
   opacity: 0.9;
 }
-
+a.order-btn,
+a.order-btn:visited,
+a.order-btn:hover,
+a.order-btn:active {
+  display: inline-block !important;
+  padding: 16px 36px !important;
+  background-color: #e8d6c3 !important; /* beige bubble */
+  color: #5a3a2e !important;
+  text-decoration: none !important;
+  border-radius: 999px !important;
+  font-size: 1.1rem !important;
+  font-weight: 600 !important;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15) !important;
+}
