@@ -153,3 +153,21 @@ footer {
   font-size: 0.8rem;
   color: #777;
 }
+.order-btn {
+  display: inline-block;
+  padding: 14px 32px;
+  background-color: #d46a8c; /* darker pink */
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.order-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+}
