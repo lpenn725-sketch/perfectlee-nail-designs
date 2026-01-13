@@ -18,13 +18,18 @@ body {
 }
 
 .hero h1 {
-  font-family: 'Playfair Display', serif;
-  font-size: 3rem;
-  color: #e8c2c8; /* soft pink */
+  font-family: 'Pacifico', cursive;
+  font-size: 3.5rem;
+  color: #d46a8c; /* darker pink */
   text-align: center;
   letter-spacing: 2px;
-  text-shadow: 2px 2px 6px rgba(120, 120, 120, 0.4);
-  margin-bottom: 20px;
+
+  /* outline effect */
+  -webkit-text-stroke: 1px #8a8a8a;
+  text-shadow:
+    2px 2px 6px rgba(120, 120, 120, 0.4);
+
+  margin-bottom: 25px;
 }
 
 .hero p {
