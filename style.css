@@ -19,7 +19,12 @@ body {
 
 .hero h1 {
   font-family: 'Playfair Display', serif;
-  letter-spacing: 1px;
+  font-size: 3rem;
+  color: #e8c2c8; /* soft pink */
+  text-align: center;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 6px rgba(120, 120, 120, 0.4);
+  margin-bottom: 20px;
 }
 
 .hero p {
