@@ -106,15 +106,7 @@ select {
   margin-bottom: 0.6rem;
 }
 
-button {
-  width: 100%;
-  background-color: #c6a87d;
-  color: white;
-  border: none;
-  padding: 0.6rem;
-  border-radius: 20px;
-  font-size: 0.9rem;
-}
+
 
 .payment {
   background-color: #ffffff;
