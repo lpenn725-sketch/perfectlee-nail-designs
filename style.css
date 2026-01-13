@@ -81,7 +81,20 @@ body {
   text-align: center;
   box-shadow: 0 8px 20px rgba(0,0,0,0.05);
 }
-
+.product .order-btn {
+  display: block;
+  width: 100%;
+  background-color: #e8d6c3;
+  color: #5a3a2e;
+  padding: 0.7rem;
+  border-radius: 25px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  margin-top: 0.6rem;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
 .product img {
   width: 100%;
   border-radius: 14px;
